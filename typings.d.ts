@@ -4,6 +4,7 @@ interface CurrentWeather {
   weathercode: number;
   winddirection: number;
   windspeed: number;
+  is_day: number;
 }
 
 interface Daily {
